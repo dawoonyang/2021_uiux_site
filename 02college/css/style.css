@@ -19,10 +19,14 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 .top .util li{float: left;margin-left: 10px;
     line-height: 40px;
 }
-.top .util li:nth-child(2) a{float: left;margin-right: 2px;}
-.top .util a{color:white;display: block;}
+.top .util li:nth-child(1) a{float: left;margin-right: 40px;}
+.top .util a{color:white;display: block;margin-left: 5px;}
+.box .box1{display: block;border: 1px solid #000;width: 50px;height: 50px;}
 
 .nav{width: 1200px;margin: 0 auto;}
 .logo{float: left;height: 118px;display: flex;justify-content: center;align-items: center;}
-.gnb{float: left;width: 1200px;}
-.gnb li{float: left;margin-left: 32px;line-height: 118px;}
+.gnb{float: left;margin: 0 auto;}
+.gnb li{float: left;margin-left: 32px;line-height: 118px;text-align: center;}
+
+.image{background-image: url(../images/배경01.jpg);width: 1200px;height: 800px;margin: 0 auto;
+    ;}
