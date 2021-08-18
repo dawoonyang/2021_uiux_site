@@ -18,7 +18,7 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 
 
 .menuWrap2 {float:right;}
-.menuWrap2>ul>li{float:right; display: block; padding:5px;}
+.menuWrap2>ul>li{float:right; display: block; padding:5px;margin-top: 5px;;}
 .menuWrap2 li a{color:#fff; font-size:13px;}
 
 .menu2{width:1200px; margin:0 auto;padding-top:20px;padding-bottom: 20px;}
@@ -26,5 +26,7 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 
 .menu2 ul {float:right;}
 .menu2 ul li{float:left;margin-left:20px}
-.menu2 li a{ display:block;line-height: 67px;  padding:0 5px; font-size: 18px bold; color:#5f5f5f; }
+.menu2 li a{display:block;line-height: 67px;padding:0 5px;
+    font-size: 18px bold;color:#5f5f5f; }
+
 
