@@ -94,7 +94,7 @@ body{
     font-weight: 300;
 }
 .container>ul>li:nth-child(2){height: 450px;margin: 0 auto;padding: -20px;}
-.container>ul>li:nth-child(2) .app{position: absolute;top:90px;left: 50px;margin: 0 auto;;}
+.container>ul>li:nth-child(2) .app{position: absolute;top:520px;left: 1400px;margin: 0 auto;;}
 .container>ul>li:nth-child(2) .app h3{font-size: 36px;line-height: 35px;color:white;margin-bottom:30px;}
 .container>ul>li:nth-child(2) .app p{font-size: 14px;color: white;margin-bottom: 50px;line-height: 15px;}
 .container>ul>li:nth-child(2) .app a{
