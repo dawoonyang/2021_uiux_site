@@ -107,17 +107,24 @@ body{
 .section li img,{ margin-left: 0;}
 .section li{margin-left: 10px;margin-top: 30px;}
 .section p{color: #fff;  }
-.container>ul>li:nth-child(4){}
-.container>ul>li:nth-child(4) h3 {color:#fff; }
+.container>ul>li:nth-child(4){position: relative;background-image: url(../images/Frame\ 4.png)}
+.container>ul>li:nth-child(4) h3{margin-top:25px;margin-left: 25px;font-size: 20px;color: white;}
+.container>ul>li:nth-child(4) .wl{position: absolute;;color: white;}
+.container>ul>li:nth-child(4) .h4{float: left;margin-top: 45px;margin-left: 20px;line-height: 30px;font-size: 12px;}
+.container>ul>li:nth-child(4) .h44{float: right;margin-top: 45px;margin-left: 40px;line-height: 30px;font-size: 12px;}
 .container>ul>li:nth-child(5){padding:23px 20px;}
 .container>ul>li:nth-child(5) .conWrap{_background: skyblue;line-height: 20px;font-size: 13px;}
 .container>ul>li:nth-child(5) .conWrap h2{margin-bottom:24px;}
 .container>ul>li:nth-child(5) .conWrap .news{margin-bottom:20px;}
 .container>ul>li:nth-child(5) .conWrap .news img{float: left;margin-right:10px;}
 .container>ul>li:nth-child(5) .conWrap .sns{margin-left: auto;width: 135px;}
-.container>ul>li:nth-child(5) .conWrap .sns li{float: left;background: #000;width: 30px;height: 30px;margin-right:5px;}
+.container>ul>li:nth-child(5) .conWrap .sns li{float: left;_background: #000;width: 30px;height: 30px;margin-right:5px;}
 .container>ul>li:nth-child(5) .conWrap .sns li:last-child{margin-right: 0;}
 .container>ul>li:nth-child(6){}
+.zoa {position: relative;}
+.zoa p{position: absolute; bottom: 2px; background: rgba(0,0,0,0.7);
+    width: 100%; line-height: 50px;font-size: 16px;
+     color:#fff; text-align: center; font-weight: bold; }
 .container>ul>li:nth-child(7){}
 .container>ul>li:nth-child(8){width: 75%;overflow: hidden;}
 
