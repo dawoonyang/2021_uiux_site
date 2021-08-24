@@ -70,11 +70,14 @@ body{
     width: 1200px;margin: 0 auto;height: 150px;_background: blue;
     margin-bottom: 55px; color: #ddd;font-style: blod;
 }
-.contents .title .ul{float: left;margin: 15px;}
+.contents .title .div{float: left;margin: 15px;}
 .contents .title .gka{font-size: 40px;padding-top: 20px;
     font-family: 'Noto Sans KR', sans-serif;margin-top: ;}
 .contents .title .tp{font-size: 68px;
     font;font-family: 'Noto Sans KR', sans-serif;}
+.titleRight {float:right; display:block; text-align:center;padding-bottom: -50px; }
+.titleRight li{float:left; margin-left: 20px;margin-top: -15px;}
+.titleRight li p{padding-top:0px;}
 
 
 .contents h2{font-weight:bold;}
@@ -90,15 +93,22 @@ body{
     display: block;width: 170px;line-height: 40px;text-align: center;background: #1A2E4F;color:#fff;
     font-weight: 300;
 }
-.container>ul>li:nth-child(2){height: 450px}
-.container>ul>li:nth-child(2) .app{position: absolute;top:60px;left: 86px;margin: 0 auto;paddinglf: 10px;}
-.container>ul>li:nth-child(2) .app h3{font-size: 28px;line-height: 30px;color:white;margin-bottom:20px;}
-.container>ul>li:nth-child(2) .app p{font-size: 14px;color: white;margin-bottom: 30px;}
+.container>ul>li:nth-child(2){height: 450px;margin: 0 auto;padding: -20px;}
+.container>ul>li:nth-child(2) .app{position: absolute;top:90px;left: 50px;margin: 0 auto;;}
+.container>ul>li:nth-child(2) .app h3{font-size: 36px;line-height: 35px;color:white;margin-bottom:30px;}
+.container>ul>li:nth-child(2) .app p{font-size: 14px;color: white;margin-bottom: 50px;line-height: 15px;}
 .container>ul>li:nth-child(2) .app a{
     display: block;width: 170px;line-height: 40px;text-align: center;background: #ccc;color:#fff;
-    font-weight: 300;
-.container>ul>li:nth-child(3){background: #002259;color: white;padding: 20px;}
+    font-weight: 300;}
+.container>ul>li:nth-child(3){background: #00163b;color: white;padding: 20px;}
+.container>ul>li:nth-child(3) h3{ color:#fff; padding-bottom: 35px; }
+.section {display:block; text-align:center;  }
+.section li{float: left;  margin: 0 auto;}
+.section li img,{ margin-left: 0;}
+.section li{margin-left: 10px;margin-top: 30px;}
+.section p{color: #fff;  }
 .container>ul>li:nth-child(4){}
+.container>ul>li:nth-child(4) h3 {color:#fff; }
 .container>ul>li:nth-child(5){padding:23px 20px;}
 .container>ul>li:nth-child(5) .conWrap{_background: skyblue;line-height: 20px;font-size: 13px;}
 .container>ul>li:nth-child(5) .conWrap h2{margin-bottom:24px;}
