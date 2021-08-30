@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>하이미디어 여행사</title>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".reservation").bxSlider({
+
+            });
+
+            $(".tour_slider").bxSlider({
+
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="hTop">
+            <div class="wrap">
+                <h1 class="logo">
+                    <a href="index.html"><span class="blind">TRAVEL 하이미디어</span></a>
+                </h1>
+                <fieldset class="search">
+                    <label for="search">SEARCH</label>
+                    <input type="text" id="search" name="search" placeholder="검색어를 입력하세요." class="input_search">
+                    <input type="submit" value="검색" class="btn-submit blind">
+                </fieldset>
+                <div class="subMenu">
+                    <h2>+82 02 1234 5678</h2>
+                    <ul class="blind">
+                        <li><img src="../03travel/image/icon1.png" alt=""></li>
+                        <li><img src="../03travel/image/icon2.png" alt=""></li>
+                        <li><img src="../03travel/image/icon3.png" alt=""></li>
+                        <li><img src="../03travel/image/icon4.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hBtm">
+            <div class="wrap">
+                <ul class="gnb">
+                    <li><a href="#">여행도시</a></li>
+                    <li><a href="#">호텔예약</a></li>
+                    <li><a href="#">렌트카</a></li>
+                    <li><a href="#">여행TIP</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
