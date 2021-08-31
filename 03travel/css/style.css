@@ -29,3 +29,22 @@ body {min-width:1200px;}
 .gnb li:last-child {border-right: 1px solid #e7e7e7;}
 .gnb li a {display: block; line-height: 56px; font-size: 18px; text-align: center; font-weight: bold;}
 .gnb li a:hover {color: #0e73a7;}
+
+
+.con{margin: 0 auto;height: 1125px;
+    background: url(../image/back.png)no-repeat fixed 0 0/100% 100%;position: relative;;}
+.zi{position: absolute;z-index: 10;}
+.ct{float: left;position: relative;width: 485px;height: 560px;}
+.cont{padding-top: 55px;float: left;position: relative;}
+.re li{padding: 15px 10px 10px 10px 155px;}
+.rf {width: 300px;}
+.rf label {display: block; font-weight: bold; margin-bottom: 5px;}
+.rf select {width: 100%; border-radius: 3px; border: 1px solid #aaa; height: 35px; text-indent: 8px; font-weight: bold; margin-bottom: 10px; font-size: 12px; display: block;}
+.rf .left {float: left;}
+.rf .right {float: right;}
+.left input, .right input {border-radius: 3px; border: 1px solid #aaa; height: 35px; text-indent: 8px; font-weight: bold; margin-bottom: 10px; width: 140px; font-size: 12px;}
+.personnum {float: right;}
+.rightnum {float: left;}
+.rf .rightnum input {border-radius: 3px; border: 1px solid #aaa; height: 35px; text-indent: 10px;
+     font-weight: bold; margin-bottom: 10px; width: 70px;margin-right: 5px;}
+.btn-reserv {height: 40px; line-height: 35px; width: 100%;  color: #fff; font-size: 18px; border-radius: 5px; background-color: #ea4f1f; background-image: url(../img/reserv_icon.png); background-repeat: no-repeat; background-position: 90px 10px; cursor: pointer; border: 1px solid #aaa;}
