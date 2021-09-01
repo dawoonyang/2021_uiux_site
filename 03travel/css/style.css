@@ -69,24 +69,42 @@ body {min-width:1200px;}
 .ct_right h3 {font-size: 30px; letter-spacing: -4px; font-weight: normal;}
 
 .container1 {width: 100%; height: 240px;}
-.cont1 {position: relative; float: left; width: 235px; height: 240px; background: #ccc; background: url(../image/t2.jpg)no-repeat;}
-.cont2 {position: relative; float: right; width: 235px; height: 240px; background: #eee; background: url(../image/t1.jpg)no-repeat;}
+.cont1 {position: relative; float: left; width: 233px; height: 240px; background: #ccc; background: url(../image/t2.jpg);}
+.cont2 {position: relative; float: right; width: 233px; height: 240px; background: #eee; background: url(../image/t1.jpg);left: -2px;}
 
 .container1 h5 {float: left; color: #fff; line-height: 50px; font-size: 16px;}
 .container1 p {float: right; line-height: 50px; font-size: 16px; color: #6ec662; padding-left: 10px; margin-right: 20px; letter-spacing: 0.5px; font-weight: bold;}
-.container1 a {position: absolute; right: 20px; margin-top: 17px; width: 20px; background: url(../img/Union.png)no-repeat 5px 0; }
+.container1 a {position: absolute; right: 20px; margin-top: 17px; width: 20px;}
 .bar {position: absolute; width: 100%; height: 50px; background: #152630; bottom: 0; padding: 0 25px;}
 
-.bc{width: 980px;height: 500px;background: #000;margin-top: 570px;;position: relative;}
-.bc .container2{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;display: block;}
-.bc .container3{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;display: block;margin-left: 250px;top: 0;;}
-.bc .container4{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;display: block;;margin-left: 250px;top: 0;}
-.bc .container5{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;display: block;margin-left: 250px;top: 0;;}
-.bc .container2 .con3{background-color: skyblue;width: 230px;height: 64px;text-align: center;}
-.bc .container3 .con4{}
-.bc .container4 .con5{}
-.bc .container5 .con6{}
-.bc .container2 .con .bar
-.bc .container2 .con .bar
-.bc .container2 .con .bar
-.bc .container2 .con .bar
+.bc{width: 980px;height: 500px;background: #000;margin-top: 570px;;position: relative;text-align: left;;}
+.bc .container2{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;
+    display: block;background-image: url(../image/paris.jpg);}
+.bc .container3{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;
+    display: block;margin-left: 250px;top: 0;background-image: url(../image/disney.jpg);;}
+.bc .container4{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;
+    display: block;;margin-left: 250px;top: 0;background-image: url(../image/sun\ 1.png);}
+.bc .container5{width: 230px;height: 240px;;background-color: #fff;position: absolute;float: left;
+    display: block;margin-left: 250px;top: 0;;background-image: url(../image/con4.jpg);}
+.bc .container2 .con3{background-color: #529351;;width: 230px;height: 64px;margin-top:176px;}
+.bc .container2 .con4{background-color: #213848;width: 230px;height: 64px;margin-top:176px;}
+.bc .container2 .con5{background-color: rgba(0,0,0,0.5);width: 230px;height: 64px;margin-top:176px;}
+.bc .container2 .con6{background-color: #44619d;width: 230px;height: 64px;margin-top:176px;}
+
+.bc .container2 .con3 .bar1 h4{color: #fff; font-size: 1.05em;padding-top: 10px;padding-left: 18px;}
+.bc .container2 .con3 .bar1 p{padding-left: 17px;}
+
+.bc .container3 .con4 .bar1 h4{color: #fff; font-size: 1.05em;padding-top: 10px;padding-left: 18px;}
+.bc .container3 .con4 .bar1 p{padding-left: 17px;}
+
+.bc .container4 h3{color: #fff;text-align: center;margin-top: 15px;;font-size: 1.3em;}
+.bc .container4 .con5 .bar1 h4{color: #fff;padding-left: 18px;margin-top: -42px;padding-top: 8px;}
+.bc .container4 .con5 .bar1 h5{color: #fff;padding-left: 18px;opacity: 0.7;}
+.bc .container4 .con5 .bar1 p{padding-left: 17px;}
+
+.bc .container5 h3{color: #484848;text-align:left;;margin-top: 18px;margin-left: 20px;;font-size: 0.8em;line-height: 18px;}
+.bc .container5 img{margin-left: 20px;}
+.bc .container5 .ps{color: blue;font-size: 0.7em;margin-left: 20px;margin-top: 25px;}
+.bc .container5 .con6 .bar1 h4{color: #fff;padding-left: 18px;margin-top: -121px;padding-top: 8px;}
+.bc .container5 .con6 .bar1 h5{color: #fff;padding-left: 18px;opacity: 0.7;}
+.bc .container5 .con6 .bar1 p{padding-left: 17px;}
