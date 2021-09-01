@@ -53,7 +53,7 @@ body {min-width:1200px;}
 
 .Tap {position: absolute; top: 10px; left: 0;}
 .Tap .active {background: #fff; color: #535353; font-weight: bold;}
-.Tap li {width: 130px; height: 75px; background: #0099cb; border-bottom: 1px solid #0086b2;}
+.Tap li {width: 130px; height: 75px; background: #0099cb; border-bottom: 1px solid #0086b2;;}
 .Tap li :hover{background: #fff;color: black;}
 .Tap li a {display: block; line-height: 75px; text-align: center;  color: #fff;}
 .Tap li:last-child a {border-bottom: 0;}
