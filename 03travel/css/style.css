@@ -3,7 +3,7 @@
 body{min-width: 980px}
 .mb15{margin-bottom: 15px !important;}
 
-.wrap {width: 1000px; margin: 0 auto;}
+.wrap {width: 1000px; margin: 0 auto;position: relative;}
 .blind {text-indent: -9999px; display: block;}
 fieldset {border: 0 none; }
 legend {display: block; position: absolute; left: 0; top: -9999px;}
@@ -74,6 +74,24 @@ body.sub{background: #ccc;}
 
 .con{margin: 0 auto;height: 1125px;;
     background: url(../image/back.png)no-repeat fixed 0 0/100% 100%;position: relative;;}
+.bga{position: absolute;margin-left: 380px;margin-top: 130px;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;/* 반복*/
+    animation-duration: alternate;/* 복원 */
+}
+
+@keyframes bga{
+    {margin-top:  10px}
+}
+.wrap .bga{animation-name: bga}
+@keyframes bga{
+    0%,100%{margin-top: 130px;}
+    50%{margin-top:  140px}
+}
+
+
 .zi{position: absolute;z-index: 10;}
 .ct{float: left;position: relative;width: 485px;height: 560px;}
 .cont{padding-top: 55px;float: left;position: relative;}
@@ -129,7 +147,7 @@ body.sub{background: #ccc;}
 .bc .container2 .con3{background-color: #529351;;width: 230px;height: 64px;margin-top:176px;}
 .bc .container2 .con4{background-color: #213848;width: 230px;height: 64px;margin-top:176px;}
 .bc .container2 .con5{background-color: rgba(0,0,0,0.5);width: 230px;height: 64px;margin-top:176px;}
-.bc .container2 .con6{background-color: #44619d;width: 230px;height: 64px;margin-top:176px;}
+.bc .container2 .con6{background-color: #44619d;width: 230px;height: 64px;margin-top:185px;}
 
 .bc .container2 .con3 .bar1 h4{color: #fff; font-size: 1.05em;padding-top: 10px;padding-left: 18px;}
 .bc .container2 .con3 .bar1 p{padding-left: 17px;}
@@ -154,7 +172,7 @@ body.sub{background: #ccc;}
 .bc .container6{width: 230px;height: 240px;;background-color: #fff
     ;position: absolute;float: left;
     display: block;background-image: url(../image/7.jpg)
-    ;margin-left: -500px;margin-top: -2px;overflow: hidden;
+    ;margin-left: -500px;margin-top: 20px;overflow: hidden;
 }
 .bc .container7{width: 230px;height: 240px;top: 260px;background-color: #fff
     ;position: absolute;float: left;
