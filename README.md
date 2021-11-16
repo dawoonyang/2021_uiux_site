@@ -4,6 +4,7 @@
 3. https://dawoonyang.github.io/2021_uiux_site/03travel
 4. https://dawoonyang.github.io/2021_uiux_site/04company
 5. https://dawoonyang.github.io/2021_uiux_site/05parallax
-6. https://dawoonyang.github.io/2021_uiux_site/06company1
+6. https://dawoonyang.github.io/2021_uiux_site/06company
+7. https://dawoonyang.github.io/2021_uiux_site/06company1
 !
 !
